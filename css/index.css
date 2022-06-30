@@ -1,0 +1,280 @@
+.header {
+  font-size: 1.3rem;
+}
+
+.nav {
+  margin: 2.5rem 0;
+}
+
+.menu .menu__list {
+  display: flex;
+}
+
+.menu .menu__list .menu__list__item {
+  color: #FFCE15;
+}
+
+.menu .menu__list .menu__list__item+.menu__list__item {
+  margin-left: 5rem;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+section .title {
+  width: 45.53rem;
+}
+
+section .title img {
+  width: 100%;
+}
+
+section .time {
+  display: flex;
+  font-size: 1.72rem;
+}
+
+section .time .time__current .time__current--hs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.67rem;
+}
+
+section .time .time__month {
+  position: relative;
+  z-index: 1;
+  margin-left: 2.19rem;
+  width: 14.67rem;
+  text-align: center;
+}
+
+section .time .time__month .time__month--info {
+  margin-top: 1.67rem;
+}
+
+section .time .time__month .time__bg {
+  position: absolute;
+  right: 0;
+  top: -70%;
+  z-index: -1;
+  width: 14.67rem;
+}
+
+.main {
+  margin: 1.5rem 0;
+}
+
+.main .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+}
+
+.calendar {
+  width: 58%;
+  max-width: 52.28rem;
+  background-color: #F4F4F4;
+  padding: 1rem;
+  margin-right: 3.13rem;
+}
+
+.tl-toubu {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+}
+
+.tl-toubu p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tl-toubu .ri-toubu-right {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tl-toubu .ri-toubu-right div:nth-child(1) {
+  margin-top: 10px;
+}
+
+.tl-toubu .ri-toubu-right div span {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+table {
+  width: 100%;
+  padding: 1rem;
+  margin: auto;
+  color: #000;
+  background-color: #F4F4F4;
+  text-align: center;
+  border: 1px solid rgba(230, 230, 230, 0.4);
+}
+
+th,
+td {
+  border: 1px solid rgba(230, 230, 230, 0.5);
+  padding: 5px;
+  height: 3.5rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+
+  th,
+  td {
+    height: 3rem;
+    font-size: 0.5rem;
+  }
+}
+
+td {
+  width: 50px;
+  text-align: right;
+}
+
+.rl-top>tr:nth-child(1) th {
+  border: none;
+  color: #000;
+}
+
+.rl-top>tr:nth-child(2)>td:nth-child(n+2) {
+  background-color: #2a62a5;
+}
+
+.rl-top>tr:nth-child(2)>td:nth-child(-n+1) {
+  color: #dedede;
+}
+
+.rl-top>tr:nth-child(3)>td {
+  background-color: #3e74b1;
+}
+
+.rl-top>tr:nth-child(4)>td {
+  background-color: #6da7d2;
+}
+
+.rl-top>tr:nth-child(5)>td {
+  background-color: #8dcae7;
+}
+
+.rl-top>tr:nth-child(6)>td:nth-child(-n+3) {
+  background-color: #9fd7e8;
+}
+
+.rl-top>tr:nth-child(6)>td:nth-child(n+4) {
+  color: #dedede;
+}
+
+.dayIntroduced {
+  display: flex;
+  flex: 1;
+}
+
+.dayIntroduced__left {
+  width: 18rem;
+}
+
+.dayIntroduced__left .dayIntroduced__left__item:last-child {
+  margin-top: 5.8rem;
+}
+
+.dayIntroduced__left .dayIntroduced__left__item:first-child .dayIntroduced__item__title p {
+  position: relative;
+  display: flex;
+}
+
+.dayIntroduced__left .dayIntroduced__left__item:first-child .dayIntroduced__item__title p::after,
+.dayIntroduced__left .dayIntroduced__left__item:first-child .dayIntroduced__item__title p::before {
+  content: "";
+  display: block;
+  width: 1.67rem;
+  height: 1.67rem;
+  margin: 0 0.5rem;
+  background-image: url("../img/MH-11.png");
+  background-size: cover;
+}
+
+.dayIntroduced__right {
+  margin-left: 2rem;
+}
+
+.dayIntroduced__item__title {
+  font-size: 1.3rem;
+  color: #FFCE15;
+  margin-bottom: 1rem;
+}
+
+.dayIntroduced__item__list .dayIntroduced__list__item {
+  font-size: 0.89rem;
+  margin-bottom: 0.26rem;
+}
+
+.dayIntroduced__left .dayIntroduced__list__item span {
+  float: right;
+  width: 12rem;
+}
+.dayIntroduced__right .dayIntroduced__list__item span {
+  width: 5rem;
+  float: right;
+}
+
+
+.end {
+  position: relative;
+  font-size: 1.4rem;
+  text-align: center;
+  max-width: 100rem;
+  width: fit-content  ;
+  margin: auto;
+}
+
+.end::after {
+  content: "";
+  position: absolute;
+  right: -1.2rem;
+  top: 0rem;
+  display: block;
+  width: .62rem;
+  height: .62rem;
+  background-image: url("../img/星星8.png");
+  background-size: 100% 100%;
+}
+
+.dayIntroduced__right {
+  margin-top: 3.85rem;
+}
+
+.footer {
+  padding-bottom: 1.3rem;
+  max-width: 100rem;
+  margin: auto;
+}
+
+.footer .ft__menu__list {
+  display: flex;
+  justify-content: center;
+  color: #FFCE15;
+  font-size: 0.94rem;
+  margin: 1rem 0;
+}
+
+.footer .ft__menu__list .menu__list__item+.menu__list__item {
+  margin-left: 3.5rem;
+}
+
+.footer .ft__tip span {
+  margin-left: 1.35rem;
+  font-size: 0.52rem;
+}

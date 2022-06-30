@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首页</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="menu">
+          <ul class="menu__list">
+            <li class="menu__list__item"><a href="#">About Calendar</a></li>
+            <li class="menu__list__item"><a href="#">Almanac</a></li>
+            <li class="menu__list__item"><a href="#">Holiday</a></li>
+            <li class="menu__list__item"><a href="#">Notice</a></li>
+            <li class="menu__list__item"><a href="#">Other</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section>
+        <div class="title">
+          <img src="./img/2.png" alt="">
+        </div>
+        <div class="time">
+          <div class="time__current">
+            <div class="time__current--date">
+              <p id="currentDate">2022年6月29日</p>
+            </div>
+            <div class="time__current--hs">
+              <span id="timeHs">19:45</span>
+              <span id="timeWeek">水曜日</span>
+            </div>
+          </div>
+          <div class="time__month">
+            <div class="time__month--current">
+              <p>JANUARY</p>
+            </div>
+            <div class="time__month--info">
+              <p>睦 月</p>
+            </div>
+            <div class="time__bg">
+              <img width="100%" src="./img/P-11.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="calendar">
+        <div class="tl-toubu">
+          <div class="ri-toubu-right">
+            <div><span>12</span><img src="./img/left.png" alt=""></div>
+            <p>Date</p>
+            <div><img src="./img/right.png" alt=""><span>2</span></div>
+          </div>
+        </div>
+        <table cellspacing="0" border-collapse="collapse">
+          <tbody class="rl-top">
+            <tr valign="middle">
+              <th>MON</th>
+              <th>TUE</th>
+              <th>WED</th>
+              <th>THU</th>
+              <th>FRI</th>
+              <th>SAT</th>
+              <th>SUN</th>
+            </tr>
+            <tr valign="top">
+              <td>31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+            </tr>
+            <tr valign="top">
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+            </tr>
+            <tr valign="top">
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+            </tr>
+            <tr valign="top">
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td class="today">25</td>
+              <td>26</td>
+              <td>27</td>
+            </tr>
+            <tr valign="top">
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="dayIntroduced">
+        <div class="dayIntroduced__left">
+          <div class="dayIntroduced__left__item">
+            <div class="dayIntroduced__item__title">
+              <p>祝日</p>
+            </div>
+            <div class="dayIntroduced__item__list">
+              <div class="dayIntroduced__list__item">
+                <p>1月1日 元日（土）</p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月10日 成人の日（月）</p>
+              </div>
+            </div>
+          </div>
+          <div class="dayIntroduced__left__item">
+            <div class="dayIntroduced__item__title">
+              <p>季節の歲時記</p>
+            </div>
+            <div class="dayIntroduced__item__list">
+              <div class="dayIntroduced__list__item">
+                <p>1月1日 <span>名古屋、スイセンの開花の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月5日 <span>那霸、ツバキの開花の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月6日 <span>佐賀、スイセンの開花の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月9日 <span>延岡、初雪の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月11日 <span>館野、初雪の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月15日 <span>高松、ツバキの開花の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月19日 <span>名瀨、サクラの開花の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月22日 <span>宫崎、 ウメの開花の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月24日 <span>鹿児島、タンポポの開花の頃</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>1月30日 <span>広島、ツバキの開花の頃</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dayIntroduced__right">
+          <div class="dayIntroduced__right__item">
+            <div class="dayIntroduced__item__title">
+              <p>季節の食材</p>
+            </div>
+            <div class="dayIntroduced__item__list">
+              <div class="dayIntroduced__list__item">
+                <p>河豚 <span>温州みかん</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>鰤（ぶり) <span>ゆず</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>カリフラワー <span>ポンカン</span></p>
+              </div>
+              <div class="dayIntroduced__list__item">
+                <p>京菜 <span>いちご</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="end">
+    <p>EVERY DAY IS A GOOD DAY</p>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="ft__menu">
+        <ul class="ft__menu__list">
+          <li class="menu__list__item"><a href="#">About Calendar</a></li>
+          <li class="menu__list__item"><a href="#">Almanac</a></li>
+          <li class="menu__list__item"><a href="#">Holiday</a></li>
+          <li class="menu__list__item"><a href="#">Notice</a></li>
+          <li class="menu__list__item"><a href="#">Other</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft__tip">
+      <span>*季節の歲時記は過去30年間の平均です</span>
+      <span>情報提供：一般財団法人 日本気象協会</span>
+    </div>
+  </footer>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
